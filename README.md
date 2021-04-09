@@ -1,3 +1,12 @@
+This is create-react-app at 1.1.5 of react-scripts. This code demonstrates an issue CRA not being able to import @monaco-editor/react spread syntax. 
+
+
+```
+yarn 
+yarn start
+```
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
