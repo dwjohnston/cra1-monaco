@@ -1,6 +1,6 @@
 This is create-react-app at 1.1.5 of react-scripts. This code demonstrates an issue CRA not being able to import @monaco-editor/react spread syntax. 
 
-
+To see: check the code out and 
 ```
 yarn 
 yarn start
