@@ -151,6 +151,25 @@ module.exports = {
               cacheDirectory: true,
             },
           },
+          {
+            test: /\.m?js$/,
+            exclude: {
+              test: /(node_modules)/, // Exclude libraries in node_modules ...
+              not: [
+
+                /@monaco-editor\/react/
+              ]
+            },
+            use: {
+              loader: require.resolve('babel-loader'),
+              options: {
+
+                "plugins": [
+                  [require.resolve("babel-plugin-transform-object-rest-spread"), { "useBuiltIns": true }]]
+                
+              }
+            }
+          },
           // "postcss" loader applies autoprefixer to our CSS.
           // "css" loader resolves paths in CSS and adds assets as dependencies.
           // "style" loader turns CSS into JS modules that inject <style> tags.
