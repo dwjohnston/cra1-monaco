@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
 
-import Editor from "@monaco-editor/react";
+import Editor from "monaco-editor-react-no-spread";
 
 function App() {
   return (

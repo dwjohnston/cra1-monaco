@@ -5208,6 +5208,15 @@ mkdirp@^0.5.1, mkdirp@^0.5.5, mkdirp@~0.5.0, mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+monaco-editor-react-no-spread@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/monaco-editor-react-no-spread/-/monaco-editor-react-no-spread-4.1.2.tgz#fdc9d995de24505d385a08ba93399508e622e5be"
+  integrity sha512-kD/QgapTOR9CMGLo+DBrjb1N+NXuw+bW3aVW/q8rfNAm+wul54EiS4jlrzkakxxxL73M4v4c8d9iQLuBw3QpKA==
+  dependencies:
+    "@monaco-editor/loader" "^1.0.1"
+    prop-types "^15.7.2"
+    state-local "^1.0.7"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
