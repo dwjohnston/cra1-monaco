@@ -1,3 +1,10 @@
+
+This branch shows that despite trying to transpile the rest spread of @monaco-editor/react, babel starts looking for @babel/env rather than babel-preset-env. 
+
+If you manually go into the node_modules/@monaco-editor/react/package.json and remove the babel information then this works. 
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
