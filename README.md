@@ -4,6 +4,35 @@ This branch shows that despite trying to transpile the rest spread of @monaco-ed
 If you manually go into the node_modules/@monaco-editor/react/package.json and remove the babel information then this works. 
 
 
+## Instructions
+
+```
+yarn
+yarn start
+```
+
+You will get this error: 
+
+```
+./node_modules/@monaco-editor/react/lib/es/index.js
+Module build failed: Error: Couldn't find preset "@babel/preset-env" relative to directory "/Users/djohnston/git/cra1/node_modules/@monaco-editor/react"
+    at Array.map (<anonymous>)
+```
+
+
+Now, navigate to node_modules/@monaco-editor/react/package.json and remove the following property:
+
+```
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ]
+  },
+```
+
+It now starts working. 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
